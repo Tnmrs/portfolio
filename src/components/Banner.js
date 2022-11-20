@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import { Col, Container, Row } from 'react-bootstrap';
-import headerImg from '../assets/img/header-img.svg';
+import headerImg from '../assets/img/header-img.svg'; //cosmo-fly
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
